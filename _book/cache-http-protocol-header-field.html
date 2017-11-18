@@ -18,10 +18,10 @@
     
     
     
-    <link rel="next" href="./ondemandresourceloading.html" />
+    <link rel="next" href="./ondemand-resource-loading.html" />
     
     
-    <link rel="prev" href="./performanceoptimizationtoolusingactualcombat.html" />
+    <link rel="prev" href="./performance-optimization-tool-using-actual-combat.html" />
     
 
         
@@ -33,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="0.4" data-basepath="." data-revision="1510930052440">
+    <div class="book"  data-level="4" data-basepath="." data-revision="1510986466881">
     
 
 <div class="book-summary">
@@ -62,17 +62,16 @@
                 
             
             
-            <ul class="articles">
-                
+        </li>
     
         
-        <li class="chapter " data-level="0.1" data-path="commonoptimizationindicator.html">
+        <li class="chapter " data-level="1" data-path="common-optimization-indicator.html">
             
                 
-                    <a href="./commonoptimizationindicator.html">
+                    <a href="./common-optimization-indicator.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.1.</b>
+                            <b>1.</b>
                         
                          常用的性能优化指标
                     </a>
@@ -82,13 +81,13 @@
         </li>
     
         
-        <li class="chapter " data-level="0.2" data-path="yahooperformanceoptimizationundertheeffectivelaw.html">
+        <li class="chapter " data-level="2" data-path="yahooperformancerules.html">
             
                 
-                    <a href="./yahooperformanceoptimizationundertheeffectivelaw.html">
+                    <a href="./yahooperformancerules.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.2.</b>
+                            <b>2.</b>
                         
                          依旧有效的雅虎优化法则
                     </a>
@@ -98,15 +97,15 @@
         </li>
     
         
-        <li class="chapter " data-level="0.3" data-path="performanceoptimizationtoolusingactualcombat.html">
+        <li class="chapter " data-level="3" data-path="performance-optimization-tool-using-actual-combat.html">
             
                 
-                    <a href="./performanceoptimizationtoolusingactualcombat.html">
+                    <a href="./performance-optimization-tool-using-actual-combat.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.3.</b>
+                            <b>3.</b>
                         
-                         性能優化工具實戰
+                         性能优化工具实战
                     </a>
                 
             
@@ -114,13 +113,13 @@
         </li>
     
         
-        <li class="chapter active" data-level="0.4" data-path="cachehttpprotocolheaderfield.html">
+        <li class="chapter active" data-level="4" data-path="cache-http-protocol-header-field.html">
             
                 
-                    <a href="./cachehttpprotocolheaderfield.html">
+                    <a href="./cache-http-protocol-header-field.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.4.</b>
+                            <b>4.</b>
                         
                          HTTP缓存
                     </a>
@@ -130,13 +129,13 @@
         </li>
     
         
-        <li class="chapter " data-level="0.5" data-path="ondemandresourceloading.html">
+        <li class="chapter " data-level="5" data-path="ondemand-resource-loading.html">
             
                 
-                    <a href="./ondemandresourceloading.html">
+                    <a href="./ondemand-resource-loading.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.5.</b>
+                            <b>5.</b>
                         
                          按需加载资源
                     </a>
@@ -146,13 +145,13 @@
         </li>
     
         
-        <li class="chapter " data-level="0.6" data-path="goodpracticesforthedifferentnetworktypes.html">
+        <li class="chapter " data-level="6" data-path="good-practices-for-the-different-network-types.html">
             
                 
-                    <a href="./goodpracticesforthedifferentnetworktypes.html">
+                    <a href="./good-practices-for-the-different-network-types.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.6.</b>
+                            <b>6.</b>
                         
                          不同网络类型的最佳实践
                     </a>
@@ -162,23 +161,18 @@
         </li>
     
         
-        <li class="chapter " data-level="0.7" data-path="configurenginxcombowithhttprequest.html">
+        <li class="chapter " data-level="7" data-path="configure-nginx-combo-with-http-request.html">
             
                 
-                    <a href="./configurenginxcombowithhttprequest.html">
+                    <a href="./configure-nginx-combo-with-http-request.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.7.</b>
+                            <b>7.</b>
                         
                          Nginx 配置 Combo 合并 HTTP 请求
                     </a>
                 
             
-            
-        </li>
-    
-
-            </ul>
             
         </li>
     
@@ -271,9 +265,9 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_154">
+                    <section class="normal" id="section-gitbook_156">
                     
-                        <h1 id="cachehttpprotocolheaderfield">cacheHTTPProtocolHeaderField</h1>
+                        <h2 id="http-">HTTP 缓存优化</h2>
 <p>　　提供更好的用户体验一直是Web开发者最求的目标。一个引用大量静态资源的Web页面, 资源的加载速度是影响页面加载耗时的最大因素。很多固定静态资源，如图片、脚本、样式文件等若都可以通过缓存保存在客户端, 不必每次都从服务器请求, 将节省大量请求时间。那么，客户端和服务端通过怎样的方式，才能确定客户端知道是否需要使用缓存文件。本节将会介HTTP缓存的具体细节。</p>
 <h3 id="41-">4.1 客户端缓存流程</h3>
 <p>　　现代浏览器会根据HTTP协议中的缓存, 实现本地缓存功能。在请求一新的文件时，浏览器发送HTTP请求到服务端。接到服务端的响应后, 浏览器会将请求的资源储存在本地，留作以后使用。</p>
@@ -324,10 +318,10 @@
         </div>
 
         
-        <a href="./performanceoptimizationtoolusingactualcombat.html" class="navigation navigation-prev " aria-label="Previous page: 性能優化工具實戰"><i class="fa fa-angle-left"></i></a>
+        <a href="./performance-optimization-tool-using-actual-combat.html" class="navigation navigation-prev " aria-label="Previous page: 性能优化工具实战"><i class="fa fa-angle-left"></i></a>
         
         
-        <a href="./ondemandresourceloading.html" class="navigation navigation-next " aria-label="Next page: 按需加载资源"><i class="fa fa-angle-right"></i></a>
+        <a href="./ondemand-resource-loading.html" class="navigation navigation-next " aria-label="Next page: 按需加载资源"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

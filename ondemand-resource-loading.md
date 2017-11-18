@@ -1,6 +1,4 @@
-# onDemandResourceLoading
-
-## 5. 资源按需加载
+## 资源按需加载
 ### 5.1 基于RequireJS的按需加载
 　　RequireJS是一种AMD(Asynchronous Module Definition 即异步模块定义) 的实现，采用异步加载模块，因此模块的加载不会影响后续代码的运行，官网地址为 http://requirejs.org/ 。AMD通过require函数加载模块，接受两个参数，实例代码如下:
 

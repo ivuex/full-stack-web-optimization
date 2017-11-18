@@ -1,6 +1,4 @@
-# goodPracticesForTheDifferentNetworkTypes
-
-## 6 不同网络类型的优化实战
+## 不同网络类型的优化实战
 
 ### 获取网络类型
 

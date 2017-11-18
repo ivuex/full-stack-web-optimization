@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5991ae27-65a6-436f-9e2e-0fb26735bbdc" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change beforePath="$PROJECT_DIR$/SUMMARY.md" afterPath="$PROJECT_DIR$/SUMMARY.md" />
+      <change beforePath="$PROJECT_DIR$/_book/GLOSSARY.html" afterPath="$PROJECT_DIR$/_book/GLOSSARY.html" />
+      <change beforePath="$PROJECT_DIR$/_book/cachehttpprotocolheaderfield.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_book/commonoptimizationindicator.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_book/configurenginxcombowithhttprequest.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_book/git-deployer" afterPath="$PROJECT_DIR$/_book/git-deployer" />
+      <change beforePath="$PROJECT_DIR$/_book/goodpracticesforthedifferentnetworktypes.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_book/index.html" afterPath="$PROJECT_DIR$/_book/index.html" />
+      <change beforePath="$PROJECT_DIR$/_book/ondemandresourceloading.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_book/performanceoptimizationtoolusingactualcombat.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/_book/salt.txt" afterPath="$PROJECT_DIR$/_book/salt.txt" />
+      <change beforePath="$PROJECT_DIR$/_book/search_index.json" afterPath="$PROJECT_DIR$/_book/search_index.json" />
+      <change beforePath="$PROJECT_DIR$/_book/yahooperformanceoptimizationundertheeffectivelaw.html" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/cachehttpprotocolheaderfield.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/commonoptimizationindicator.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/configurenginxcombowithhttprequest.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/goodpracticesforthedifferentnetworktypes.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ondemandresourceloading.md" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/performanceoptimizationtoolusingactualcombat.md" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +48,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_book/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2730">
-              <caret line="182" column="30" lean-forward="false" selection-start-line="182" selection-start-column="30" selection-end-line="182" selection-end-column="30" />
+            <state relative-caret-position="435">
+              <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
               <folding />
             </state>
           </provider>
@@ -80,12 +98,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="488">
-                <caret line="395" column="0" lean-forward="true" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
+              <first_editor relative-caret-position="527">
+                <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -133,6 +151,7 @@
       <list>
         <option value="$PROJECT_DIR$/_book/search_index.json" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/_book/index.html" />
       </list>
     </option>
   </component>
@@ -143,10 +162,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="4">
-    <option name="x" value="683" />
     <option name="y" value="15" />
     <option name="width" value="683" />
-    <option name="height" value="733" />
+    <option name="height" value="753" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -163,52 +181,34 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="optimizing-art-gitbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="optimizing-art-gitbook" type="462c0819:PsiDirectoryNode" />
+              <item name="full-stack-web-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="full-stack-web-optimization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="optimizing-art-gitbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="optimizing-art-gitbook" type="462c0819:PsiDirectoryNode" />
+              <item name="full-stack-web-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="full-stack-web-optimization" type="462c0819:PsiDirectoryNode" />
               <item name="_book" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="optimizing-art-gitbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="optimizing-art-gitbook" type="462c0819:PsiDirectoryNode" />
-              <item name="_book" type="462c0819:PsiDirectoryNode" />
-              <item name="gitbook" type="462c0819:PsiDirectoryNode" />
+              <item name="full-stack-web-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="full-stack-web-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="git-deployer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="optimizing-art-gitbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="optimizing-art-gitbook" type="462c0819:PsiDirectoryNode" />
-              <item name="_book" type="462c0819:PsiDirectoryNode" />
-              <item name="gitbook" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="optimizing-art-gitbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="optimizing-art-gitbook" type="462c0819:PsiDirectoryNode" />
-              <item name="_book" type="462c0819:PsiDirectoryNode" />
-              <item name="gitbook" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="optimizing-art-gitbook" type="b2602c69:ProjectViewProjectNode" />
-              <item name="optimizing-art-gitbook" type="462c0819:PsiDirectoryNode" />
-              <item name="_book" type="462c0819:PsiDirectoryNode" />
-              <item name="gitbook" type="462c0819:PsiDirectoryNode" />
-              <item name="plugins" type="462c0819:PsiDirectoryNode" />
-              <item name="gitbook-plugin-mathjax" type="462c0819:PsiDirectoryNode" />
+              <item name="full-stack-web-optimization" type="b2602c69:ProjectViewProjectNode" />
+              <item name="full-stack-web-optimization" type="462c0819:PsiDirectoryNode" />
+              <item name="timization_indicator" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -249,22 +249,24 @@
       <workItem from="1510887211514" duration="22000" />
       <workItem from="1510887307760" duration="1900000" />
       <workItem from="1510916379672" duration="1285000" />
+      <workItem from="1510968875615" duration="7159000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7656000" />
+    <option name="totallyTimeSpent" value="14815000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="683" y="15" width="683" height="733" extended-state="4" />
+    <frame x="0" y="15" width="683" height="753" extended-state="4" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3298351" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.6271722" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.8744257" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -698,6 +700,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="527">
+            <caret line="395" column="0" lean-forward="false" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SUMMARY.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -711,20 +724,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_book/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2730">
-          <caret line="182" column="30" lean-forward="false" selection-start-line="182" selection-start-column="30" selection-end-line="182" selection-end-column="30" />
+        <state relative-caret-position="435">
+          <caret line="29" column="29" lean-forward="false" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="488">
-            <caret line="395" column="0" lean-forward="true" selection-start-line="395" selection-start-column="0" selection-end-line="395" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>

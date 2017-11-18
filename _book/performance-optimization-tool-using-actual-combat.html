@@ -4,7 +4,7 @@
     <head>
         
         <meta charset="UTF-8">
-        <title>Nginx 配置 Combo 合并 HTTP 请求 | 前端性能优化</title>
+        <title>性能优化工具实战 | 前端性能优化</title>
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
         <meta name="description" content="">
         <meta name="generator" content="GitBook 1.0.3">
@@ -18,8 +18,10 @@
     
     
     
+    <link rel="next" href="./cache-http-protocol-header-field.html" />
     
-    <link rel="prev" href="./goodpracticesforthedifferentnetworktypes.html" />
+    
+    <link rel="prev" href="./yahooperformancerules.html" />
     
 
         
@@ -31,7 +33,7 @@
 
 
         
-    <div class="book"  data-level="0.7" data-basepath="." data-revision="1510930052440">
+    <div class="book"  data-level="3" data-basepath="." data-revision="1510986466881">
     
 
 <div class="book-summary">
@@ -60,17 +62,16 @@
                 
             
             
-            <ul class="articles">
-                
+        </li>
     
         
-        <li class="chapter " data-level="0.1" data-path="commonoptimizationindicator.html">
+        <li class="chapter " data-level="1" data-path="common-optimization-indicator.html">
             
                 
-                    <a href="./commonoptimizationindicator.html">
+                    <a href="./common-optimization-indicator.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.1.</b>
+                            <b>1.</b>
                         
                          常用的性能优化指标
                     </a>
@@ -80,13 +81,13 @@
         </li>
     
         
-        <li class="chapter " data-level="0.2" data-path="yahooperformanceoptimizationundertheeffectivelaw.html">
+        <li class="chapter " data-level="2" data-path="yahooperformancerules.html">
             
                 
-                    <a href="./yahooperformanceoptimizationundertheeffectivelaw.html">
+                    <a href="./yahooperformancerules.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.2.</b>
+                            <b>2.</b>
                         
                          依旧有效的雅虎优化法则
                     </a>
@@ -96,15 +97,15 @@
         </li>
     
         
-        <li class="chapter " data-level="0.3" data-path="performanceoptimizationtoolusingactualcombat.html">
+        <li class="chapter active" data-level="3" data-path="performance-optimization-tool-using-actual-combat.html">
             
                 
-                    <a href="./performanceoptimizationtoolusingactualcombat.html">
+                    <a href="./performance-optimization-tool-using-actual-combat.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.3.</b>
+                            <b>3.</b>
                         
-                         性能優化工具實戰
+                         性能优化工具实战
                     </a>
                 
             
@@ -112,13 +113,13 @@
         </li>
     
         
-        <li class="chapter " data-level="0.4" data-path="cachehttpprotocolheaderfield.html">
+        <li class="chapter " data-level="4" data-path="cache-http-protocol-header-field.html">
             
                 
-                    <a href="./cachehttpprotocolheaderfield.html">
+                    <a href="./cache-http-protocol-header-field.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.4.</b>
+                            <b>4.</b>
                         
                          HTTP缓存
                     </a>
@@ -128,13 +129,13 @@
         </li>
     
         
-        <li class="chapter " data-level="0.5" data-path="ondemandresourceloading.html">
+        <li class="chapter " data-level="5" data-path="ondemand-resource-loading.html">
             
                 
-                    <a href="./ondemandresourceloading.html">
+                    <a href="./ondemand-resource-loading.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.5.</b>
+                            <b>5.</b>
                         
                          按需加载资源
                     </a>
@@ -144,13 +145,13 @@
         </li>
     
         
-        <li class="chapter " data-level="0.6" data-path="goodpracticesforthedifferentnetworktypes.html">
+        <li class="chapter " data-level="6" data-path="good-practices-for-the-different-network-types.html">
             
                 
-                    <a href="./goodpracticesforthedifferentnetworktypes.html">
+                    <a href="./good-practices-for-the-different-network-types.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.6.</b>
+                            <b>6.</b>
                         
                          不同网络类型的最佳实践
                     </a>
@@ -160,23 +161,18 @@
         </li>
     
         
-        <li class="chapter active" data-level="0.7" data-path="configurenginxcombowithhttprequest.html">
+        <li class="chapter " data-level="7" data-path="configure-nginx-combo-with-http-request.html">
             
                 
-                    <a href="./configurenginxcombowithhttprequest.html">
+                    <a href="./configure-nginx-combo-with-http-request.html">
                         <i class="fa fa-check"></i>
                         
-                            <b>0.7.</b>
+                            <b>7.</b>
                         
                          Nginx 配置 Combo 合并 HTTP 请求
                     </a>
                 
             
-            
-        </li>
-    
-
-            </ul>
             
         </li>
     
@@ -269,72 +265,16 @@
                 <div class="page-inner">
                 
                 
-                    <section class="normal" id="section-gitbook_151">
-                    
-                        <h1 id="configurenginxcombowithhttprequest">configureNginxComboWithHTTPRequest</h1>
-<h2 id="7-nginx--combo--http-">7. 优化案例：　Nginx 配置 Combo 合并 HTTP 请求</h2>
-<p>　　Nginx 是一个开源高效的 HTTP 服务器，通过简单的配置能够提供丰富的功，最重要的是，他对服务器的配置要求极低。Nginx 选用了有事驱动的异步非阻塞模型，而不是传统的依赖多线程来响应，因此，在同等资源的情况下能够提供极大的并发请求。对于前端开发者来说，选用 Nginx 是一个主流并且高性价比的选择。</p>
-<h3 id="71--nginx-">7.1 安装 Nginx 和文件合并模块</h3>
-<p>　　要玩转 Nginx，首先推荐使用 Linux 操作系统的服务器来搭建服务，一台普通的云服务器即可。文件合并模快选择开源插件 nginx-http-concat, 操作系统为 CentOS 7。一般情况下安装 Nginx 推荐添加 EPEL (全称 Extra Package for Enterprise Linux, 即企业级 Linux 附加包)安装源，然后通过 CentOS 包管理器 yum 安装。这种方式的安装简单且方便升级。因为安装模块需要重行编译 Nginx 安装包，所以这里介绍通过二进制包来安装，步骤如下。</p>
-<ol>
-<li><p>下最新的 Nginx 稳定版本二进制包，以版本 1.10.3　为例, 命令如下：</p>
-<pre><code>wget http://nginx.org/download/nginx-1.10.3.tar.g
-</code></pre></li>
-<li><p>解压缩安装包，命令如下：</p>
-<pre><code>tar zxvf nginx-1.10.3.tar.gz
-</code></pre></li>
-<li><p>克隆创酷镜像，命令如下：</p>
-<pre><code>git clone git@github.com:alibaba/nginx-http-concat.git
-</code></pre></li>
-<li><p>切换到 nginx 目录，命令如下：</p>
-<pre><code>cd nginx-1.10.3
-</code></pre></li>
-<li><p>在构建参数中添加模块并构建，代码如下：</p>
-<pre><code>./configure --add-module=/path/to/nginx-http-concat
-make &amp;&amp; make install
-</code></pre></li>
-<li><p>查找 Nginx 地址，命令如下：</p>
-<pre><code>// 找到 Nginx 执行文件的地址，可以配置命令行环境，或者通过路径调用
-whereis nginx
-// 查找到 Nginx 的默认配置文件地址，如果出现异常，默认在/etc/nginx/conf.d/default.conf
-nginx -t
-</code></pre></li>
-</ol>
-<p>通过 cat 命令读取配置文件，可以看到 root 地址，对应网站根目录。</p>
-<ol>
-<li>启动 Nginx, 命令如下：<pre><code>// 推荐使用systemctl来启动，也可以通过 nginx 命令来启动
-sudo systemctl start nginx
-//　开机自启动，可选
-sudo systemctl enable nginx
-</code></pre></li>
-</ol>
-<h2 id="72--nginx--combo">7.2 配置 Nginx 和 Combo</h2>
-<p>　　nginx-http-concat Nginx 适用于 Nginx 的文件合并模块，可以将多个对静态资源的 HTTP 请求合并成为一个，进而减少 HTTP 请求数。假设原来需要 a.js, b.js, c.js 三个文件，产生三次请求，通过该模块可以在一个请求中完成，实例地址如下:</p>
-<pre><code>//使用??作标识表示合并文件
-http://example.com/static/??a.js,b.js,c.js
-</code></pre><p>需要修改 Nginx 的配置，文件配置如下：</p>
-<pre><code>location /static/ {
-    # nginx-http-concat 主开关
-    concat on
-    # 最大合并文件数
-    # concat_max_files 10；
-    # 只允许通内省文件合并
-    # concat_unique on
-    # 允许合并的文件类型，多个以逗号分隔。如: application/x-javascript, text/css
-    # concat_types text/html
-}
-</code></pre>
-                    
-                    </section>
-                
                 
                 </div>
             </div>
         </div>
 
         
-        <a href="./goodpracticesforthedifferentnetworktypes.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: 不同网络类型的最佳实践"><i class="fa fa-angle-left"></i></a>
+        <a href="./yahooperformancerules.html" class="navigation navigation-prev " aria-label="Previous page: 依旧有效的雅虎优化法则"><i class="fa fa-angle-left"></i></a>
         
+        
+        <a href="./cache-http-protocol-header-field.html" class="navigation navigation-next " aria-label="Next page: HTTP缓存"><i class="fa fa-angle-right"></i></a>
         
     </div>
 </div>

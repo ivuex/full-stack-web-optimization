@@ -1,6 +1,4 @@
-# configureNginxComboWithHTTPRequest
-
-## 7. 优化案例：　Nginx 配置 Combo 合并 HTTP 请求
+## 优化案例：　Nginx 配置 Combo 合并 HTTP 请求
 　　Nginx 是一个开源高效的 HTTP 服务器，通过简单的配置能够提供丰富的功，最重要的是，他对服务器的配置要求极低。Nginx 选用了有事驱动的异步非阻塞模型，而不是传统的依赖多线程来响应，因此，在同等资源的情况下能够提供极大的并发请求。对于前端开发者来说，选用 Nginx 是一个主流并且高性价比的选择。
 ### 7.1 安装 Nginx 和文件合并模块
 　　要玩转 Nginx，首先推荐使用 Linux 操作系统的服务器来搭建服务，一台普通的云服务器即可。文件合并模快选择开源插件 nginx-http-concat, 操作系统为 CentOS 7。一般情况下安装 Nginx 推荐添加 EPEL (全称 Extra Package for Enterprise Linux, 即企业级 Linux 附加包)安装源，然后通过 CentOS 包管理器 yum 安装。这种方式的安装简单且方便升级。因为安装模块需要重行编译 Nginx 安装包，所以这里介绍通过二进制包来安装，步骤如下。
